@@ -95,5 +95,17 @@ dependencies {
   //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+  //jetpack credential Manager
+  implementation "androidx.credentials:credentials:1.2.2"
+  // optional - needed for credentials support from play services, for devices running
+  // Android 13 and below.
+  implementation "androidx.credentials:credentials-play-services-auth:1.2.2"
+  //For google sign in
+  implementation "com.google.android.libraries.identity.googleid:googleid:1.1.1"
+  //Co-routine
+  implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+  //Gson
+  implementation 'com.google.code.gson:gson:2.10.1'
+
 }
 

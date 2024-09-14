@@ -183,5 +183,8 @@
     "type": "module-legacy",
     "languages": "kotlin-swift",
     "version": "0.41.1"
+  },
+  "dependencies": {
+    "react-native-android-studio": "^2.0.0"
   }
 }
